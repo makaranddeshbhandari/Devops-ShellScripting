@@ -7,4 +7,16 @@ comment
 
 
 name="Makku"
-echo "the name is $name"
+echo "the name is $name and $(date)"
+
+#echo " enter your username:"
+
+
+#read username
+
+#echo " you enter $username"
+
+read -p "enter your username" $username
+
+echo " your username is $username"
+
