@@ -20,3 +20,5 @@ read -p "enter your username" $username
 
 echo " your username is $username"
 
+echo "the new character is $0 are: $1 and $2"
+
